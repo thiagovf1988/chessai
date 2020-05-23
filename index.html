@@ -3,9 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="initial-scale=1">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
   <meta content="description" name="description">
   <meta name="google" content="notranslate" />
   <meta content="Mashup templates have been developped by Orson.io team" name="author">
@@ -16,19 +15,18 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link href="./assets/favicon.ico" rel="icon">
 
-  <title>Title page</title>
+  <title>Chess AI</title>
 
   <link href="./main.3f6952e4.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="minimal">
-  <div id="site-border-left"></div>
-  <div id="site-border-right"></div>
-  <div id="site-border-top"></div>
-  <div id="site-border-bottom"></div>
+
   <!-- Add your content of header -->
   <header>
-    <nav class="navbar  navbar-fixed-top navbar-inverse">
+
+    <!-- <div class="zone"> -->
+    <nav class="navbar  navbar-fixed-top navbar-default">
       <div class="container">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
           aria-expanded="false">
@@ -40,15 +38,10 @@
 
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav ">
-            <li><a href="./index.html" title="Homepage" style="color:black;text-align:center;font-weight: bold">01 :
-                Home</a></li>
-            <li><a href="./works.html" title="Track of the big picture"
-                style="color:black;text-align:center;font-weight: bold">02 : Works</a></li>
-            <li><a href="./about.html" title="Not that it's relevant"
-                style="color:black;text-align:center;font-weight: bold">03 :
-                About me</a></li>
-            <li><a href="./contact.html" title="Contact me" style="color:black;text-align:center;font-weight: bold">04 :
-                Contact</a></li>
+            <li><a href="./index.html" title="Homepage">01 : Home</a></li>
+            <li><a href="./works.html" title="Track of the big picture">02 : Works</a></li>
+            <li><a href="./about.html" title="Not that it's relevant">03 : About me</a></li>
+            <li><a href="./contact.html" title="Contact me">04 : Contact</a></li>
             <!-- <li><a href="./components.html" title="">05 : Components</a></li> -->
           </ul>
 
@@ -56,8 +49,10 @@
         </div>
       </div>
     </nav>
+    <!-- </div> -->
   </header>
   <!-- Add your site or app content here -->
+  <!-- <div class="zone"> -->
   <div class="hero-full-container background-image-container white-text-container"
     style="background-image: url('./assets/images/space.jpg')">
     <div class="container">
@@ -65,9 +60,9 @@
         <div class="col-xs-12">
           <div class="hero-full-wrapper">
             <div class="text-content">
-              <h1>Chess AI<br></h1>
-              <h1>Hello,<br></h1>
-              <h1><span id="typed-strings">
+              <h1 class="toto">Chess AI<br></h1>
+              <h1 class="toto">Hello,<br></h1>
+              <h1 class="toto"><span id="typed-strings">
                   <span>I'm still working on it</span>
                   <span>Under construction</span>
                   <span>Coming soon</span>
@@ -79,17 +74,44 @@
         </div>
       </div>
     </div>
-  </div>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function (event) {
-      type();
-      movingBackgroundImage();
-    });
-  </script>
+    <!-- </div> -->
+    <!-- <div class="cont zone red">cdcd</div> -->
 
 
-  <script src="./main.70a66962.js"></script>
+    <!-- <div class="hero-full-container background-image-container white-text-container"
+      style="background-image: url('./assets/images/space.jpg')">
+      <div class="hero-full-container background-image-container white-text-container"
+        style="background-image: url('./assets/images/space.jpg')">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="hero-full-wrapper">
+                <div class="text-content">
+                  <h1>Chess AI<br></h1>
+                  <h1>Hello,<br></h1>
+                  <h1><span id="typed-strings">
+                      <span>I'm still working on it</span>
+                      <span>Under construction</span>
+                      <span>Coming soon</span>
+                    </span>
+                    <span id="typed"></span>
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        type();
+        movingBackgroundImage();
+      });
+    </script>
+
+
+    <script src="./main.70a66962.js"></script>
 </body>
 
 </html>
